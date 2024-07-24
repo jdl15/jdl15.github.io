@@ -15,6 +15,23 @@ html[data-theme="Dark"] {
     --fill:#ffffff;
 }
 
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--main_text_color, #000000);
+    border-radius: 8px;
+    height: 20%;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--main_bg_color, linear-gradient(50deg, #a2d0ff, #ffffff));
+}
+
+
+
 body {
     height: 100%;
     min-height: 100vh;
