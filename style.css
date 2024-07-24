@@ -136,7 +136,7 @@ body {
     background-color: rgb(255 255 255);
     border: 2px solid #fff;
     position: absolute;
-    left: -5px;
+    left: -7px;
     top: 50%;
 }
 
@@ -294,25 +294,25 @@ body {
 }
 
 
-.projectItem:hover {
+/* .projectItem:hover {
     box-shadow: 0 8px 16px -4px #2c2d300c;
     transform: translateY(-2px);
 
-}
+} */
 
-.projectItem.pressed {
+.projectLink.pressed {
     transform: scale(0.9);
     /* 缩小到原来的0.9倍 */
     background-color: var(--item_hover_color);
 }
 
-.projectItem:hover .projectItemLeft {
+/* .projectItem:hover .projectItemLeft {
     width: 100%;
-}
+} */
 
-.projectItem:hover h1 {
+/* .projectItem:hover h1 {
     font-size: 18px;
-}
+} */
 
 .projectItemLeft p {
     font-size: 12px;
@@ -326,7 +326,7 @@ body {
     font-size: 16px;
     margin: 0px;
 
-    transition: font-size 0.4s ease;
+    /* transition: font-size 0.4s ease; */
     color: var(--item_left_title_color);
 }
 
