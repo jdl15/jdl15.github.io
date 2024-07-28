@@ -15,6 +15,20 @@
     --fill:#ffffff;
 } */
 
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+/* ::-webkit-scrollbar-thumb {
+    background-color: var(--main_text_color, #000000);
+    border-radius: 8px;
+    height: 20%;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--main_bg_color, linear-gradient(50deg, #a2d0ff, #ffffff));
+} */
+
 body {
     height: 100%;
     min-height: 100vh;
@@ -64,6 +78,10 @@ body {
     left: 0;
     align-items: center;
     flex-direction: column;
+}
+
+.left::-webkit-scrollbar {
+    display: none;
 }
 
 .logo {
@@ -129,6 +147,10 @@ body {
     color: var(--main_text_color);
 }
 
+#line::-webkit-scrollbar {
+    display: none;
+}
+
 .focus {
     width: 8px;
     height: 8px;
@@ -161,6 +183,23 @@ body {
     font-size: 65px;
     font-weight: 800;
     margin: 20px 0;
+}
+
+.index-logo {
+    flex-shrink: 0;
+    width: 40%;
+    margin-top: 30px;
+    position: relative;
+    max-width: 200px;
+    aspect-ratio: 1/1;
+    background-size: cover;
+    border-radius: 50%;
+    border: 0.5px solid #ffffff;
+}
+.description {
+
+    font-size: 20px;
+    margin-top: 7px;
 }
 
 .iconContainer {
@@ -333,7 +372,7 @@ body {
 .projectItemLeft {
     transition: width 0.4s ease;
     height: 100%;
-    width: 80%;
+    /* width: 80%; */
 }
 
 .skill {
@@ -362,6 +401,73 @@ footer {
     font-size: 13px;
     bottom: 0;
 }
+
+@media (min-width: 800px) {
+    .index-logo {
+        display: none;
+    }
+}
+
+@media (max-width: 1150px) {
+    .projectItem{
+        margin: 10px;
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 800px) {
+    .left {
+        display: none;
+    }
+
+
+    .projectItem {
+        height: 80px;
+        margin: 8px 15px;
+        width: calc(100% - 40px);
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .description {
+        font-size: 4vw;
+    }
+
+    .welcome {
+        font-size: 10vw;
+        margin: 2vw 0;
+
+    }
+    .iconContainer {
+  
+     margin-top: 4vw;
+
+}
+.projectItem{
+    padding: 10px;
+}
+    .projectItemLeft p {
+        font-size: 10px;
+    }
+
+    .projectItemLeft h1 {
+
+        font-size: 12px;
+    }
+
+
+    .skill {
+        display: block;
+    }
+}
+
+
+
+
+
+
 
 
 
