@@ -150,10 +150,6 @@ body {
     color: var(--main_text_color);
 }
 
-#line::-webkit-scrollbar {
-    display: none;
-}
-
 .focus {
     width: 8px;
     height: 8px;

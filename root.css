@@ -19,8 +19,4 @@ html {
     --fill:#000000;
 
     
-    --main_bg_color: -webkit-linear-gradient(50deg, #a2d1ff, #ffffff); /* Safari */
-    --main_bg_color: -moz-linear-gradient(50deg, #a2d1ff, #ffffff); /* Firefox */
-    --main_bg_color: -o-linear-gradient(50deg, #a2d1ff, #ffffff); /* Opera */
-    --main_bg_color: linear-gradient(50deg, #a2d1ff, #ffffff); /* Standard */
 }
