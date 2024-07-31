@@ -1,7 +1,6 @@
 html {
     /*蓝色渐变+黑色svg**/
 
-
     --name: 主题3;
     --main_bg_color: linear-gradient(50deg, #a2d1ff, #ffffff);
     --main_text_color: #000000;
@@ -17,10 +16,11 @@ html {
     --card_filter: 0px;
     --back_filter: 0px;
     --back_filter_color: #00000000;
-     --fill:#000000;
+    --fill:#000000;
 
-     --main_bg_color: -webkit-linear-gradient(50deg, #a2d1ff, #ffffff); /* Safari */
-     --main_bg_color: -moz-linear-gradient(50deg, #a2d1ff, #ffffff); /* Firefox */
-     --main_bg_color: -o-linear-gradient(50deg, #a2d1ff, #ffffff); /* Opera */
-     --main_bg_color: linear-gradient(50deg, #a2d1ff, #ffffff); /* Standard */
+    
+    --main_bg_color: -webkit-linear-gradient(50deg, #a2d1ff, #ffffff); /* Safari */
+    --main_bg_color: -moz-linear-gradient(50deg, #a2d1ff, #ffffff); /* Firefox */
+    --main_bg_color: -o-linear-gradient(50deg, #a2d1ff, #ffffff); /* Opera */
+    --main_bg_color: linear-gradient(50deg, #a2d1ff, #ffffff); /* Standard */
 }
