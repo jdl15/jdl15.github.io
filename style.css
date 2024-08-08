@@ -485,7 +485,7 @@ footer {
 
 
 
-.onoffswitch {
+/* .onoffswitch {
     position: relative;
     width: 38px;
     height: 20px;
@@ -566,4 +566,4 @@ footer {
 
 .onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-switch {
     right: 50%;
-}
+} */
