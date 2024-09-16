@@ -382,28 +382,28 @@ body {
     /* width: 80%; */
 }
 
-.skill {
-    width: 100%;
+
+.skillList{
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.skill a{
-    text-decoration: none;
-    outline: none;
+.skillItem{
+    text-align: center;
+    padding: 5px 3px;
+    width: 80px;
+    height: 25px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 10px;
+    backdrop-filter: blur(var(--card_filter));
+    -webkit-backdrop-filter: blur(var(--card_filter));
+    background: var(--item_bg_color);
 }
-
-.skill i {
-    /* width: ;
-    height: 100%; */
-    object-fit: cover;
-}
-
-/* .skill #skillWap {
-    display: none;
-} */
 
 footer {
     position: relative;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     width: 100%;
     backdrop-filter: blur(var(--card_filter));
@@ -478,7 +478,10 @@ footer {
 }
 
 
-
+svg {
+    width: 100px;
+    height: 100px;
+  }
 
 
 
