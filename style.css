@@ -318,26 +318,27 @@ body {
     background-color: var(--item_bg_color);
     border-radius: 8px;
     padding: 15px;
-    height: 95px;
-    width: calc(25% - 15px);
+    height: 110px;
+    width: 240px;
     backdrop-filter: blur(var(--card_filter));-webkit-backdrop-filter: blur(var(--card_filter));
     -webkit-backdrop-filter: blur(var(--card_filter));-webkit-backdrop-filter: blur(var(--card_filter));
-    transition: opacity 0.3s ease, background-color 0.3s ease, border 0.3s ease, transform 0.2s ease;
+    transition: opacity 0.5s ease, background-color 0.2s ease, border 0.2s ease, transform 0.3s ease;
     text-decoration: none;
 
 }
 
-.projectItem {
+/* .projectItem {
     display: flex;
     background-color: var(--item_bg_color);
     border-radius: 8px;
     padding: 15px;
     height: 105px;
     width: calc(25% - 15px);
-    backdrop-filter: blur(var(--card_filter));-webkit-backdrop-filter: blur(var(--card_filter));
+    backdrop-filter: blur(var(--card_filter));
+    -webkit-backdrop-filter: blur(var(--card_filter));
     transition: opacity 0.5s ease, background-color 0.2s ease, border 0.2s ease, transform 0.3s ease;
-
-}
+    text-decoration: none;
+} */
 
 
 /* .projectItem:hover {
