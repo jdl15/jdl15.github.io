@@ -307,9 +307,24 @@ body {
     transform: translateY(-5px);
 } */
 
-.projectList {
+.projectList, .experienceList {
     display: flex;
     flex-wrap: wrap;
+}
+
+.experienceItem {
+    margin: 7px;
+    display: flex;
+    background-color: var(--item_bg_color);
+    border-radius: 8px;
+    padding: 15px;
+    height: auto;
+    width: 500px;
+    backdrop-filter: blur(var(--card_filter));-webkit-backdrop-filter: blur(var(--card_filter));
+    -webkit-backdrop-filter: blur(var(--card_filter));-webkit-backdrop-filter: blur(var(--card_filter));
+    transition: opacity 0.5s ease, background-color 0.2s ease, border 0.2s ease, transform 0.3s ease;
+    text-decoration: none;
+
 }
 
 .projectItem {
@@ -318,7 +333,7 @@ body {
     background-color: var(--item_bg_color);
     border-radius: 8px;
     padding: 15px;
-    height: 110px;
+    height: auto;
     width: 240px;
     backdrop-filter: blur(var(--card_filter));-webkit-backdrop-filter: blur(var(--card_filter));
     -webkit-backdrop-filter: blur(var(--card_filter));-webkit-backdrop-filter: blur(var(--card_filter));
@@ -361,14 +376,14 @@ body {
     font-size: 18px;
 } */
 
-.projectItemLeft p {
-    font-size: 12px;
+.projectItemLeft p, .experienceItem p {
+    font-size: 13px;
     margin-top: 10px;
     color: var(--item_left_text_color);
 }
 
 
-.projectItemLeft h1 {
+.projectItemLeft h1, .experienceItem h1 {
     font-weight: normal;
     font-size: 16px;
     margin: 0px;
