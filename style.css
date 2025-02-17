@@ -15,6 +15,11 @@
     --fill:#ffffff;
 } */
 
+* {
+    margin: 0;
+    padding: 0;
+    }
+
 * { /*ios was somehow adding padding to the broswer, and the logo is oval in the safari, this solve the problem*/
     box-sizing: border-box;
     user-select: none;
@@ -319,7 +324,7 @@ body {
     border-radius: 8px;
     padding: 15px;
     height: auto;
-    width: 500px;
+    width: 600px;
     backdrop-filter: blur(var(--card_filter));-webkit-backdrop-filter: blur(var(--card_filter));
     -webkit-backdrop-filter: blur(var(--card_filter));-webkit-backdrop-filter: blur(var(--card_filter));
     transition: opacity 0.5s ease, background-color 0.2s ease, border 0.2s ease, transform 0.3s ease;
@@ -377,7 +382,7 @@ body {
 } */
 
 .projectItemLeft p, .experienceItem p {
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 10px;
     color: var(--item_left_text_color);
 }
@@ -385,7 +390,7 @@ body {
 
 .projectItemLeft h1, .experienceItem h1 {
     font-weight: normal;
-    font-size: 16px;
+    font-size: 17px;
     margin: 0px;
 
     /* transition: font-size 0.4s ease; */
@@ -450,9 +455,8 @@ footer {
         display: none;
     }
 
-
     .projectItem {
-        height: 80px;
+        height: auto;
         margin: 8px 15px;
         width: calc(100% - 40px);
     }
@@ -475,16 +479,13 @@ footer {
      margin-top: 4vw;
 
 }
-.projectItem{
-    padding: 10px;
-}
     .projectItemLeft p {
-        font-size: 10px;
+        font-size: 15px;
     }
 
-    .projectItemLeft h1 {
+    .projectItemLeft h1, .experienceItem h1{
 
-        font-size: 12px;
+        font-size: 20px;
     }
 
 
